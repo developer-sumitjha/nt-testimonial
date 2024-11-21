@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+.testimonial-header{
+    margin-bottom: 48px;
+}
+.testimonial-container h1 {
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.testimonial-container h6 {
+    text-align: center;
+}
+.testimonial-container .testimonial-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 24px;
+    justify-content: space-evenly;
+    padding: 0px;
+    list-style-type: none;
+    max-width: 1320px;
+    margin: auto;
+}
+.testimonial-item {
+    flex: 0 0 calc(33.33% - 16px);
+    /* background: #EEEEEE; */
+    padding: 24px;
+    border-radius: 30px;
+    border: 1px solid #ECF8EF42;
+    /* box-shadow: 0px 0px 15px 0px rgb(0, 0, 0, 0.3); */
+}
+/* .testimonial-item:hover {
+    border: 1px solid #39994E;
+} */
+.testimonial-content {
+    font-size: 16px;
+    font-family: "Urbanist", sans-serif;
+    color: #777777;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.skin-1 .author-details {
+    display: flex;
+    align-items: center;
+    /* gap: 12px; */
+    margin-top: 16px;
+}
+.skin-2 .author-details {
+    display: flex;
+    align-items: center;
+    /* gap: 12px; */
+    margin-bottom: 16px;
+}
+.author-details .img{
+    margin-right: 12px;
+}
+.author-details .img img {
+    width: 31px;
+    height: 30px;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.author-info h6, .author-info p {
+    margin: 0px;
+    font-family: "Urbanist", sans-serif;
+    text-align: left;
+}
+.author-info h6 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.author-info p {
+    font-size: 14px;
+    color: #39994E;
+    font-weight: 600;
+}
+.align-center .author-details {
+    flex-direction: column;
+}
+
+.align-center .author-details * {
+    text-align: center;
+}
+.align-center {
+    text-align: center;
+}
+.align-right .author-details {
+    flex-direction: row-reverse;
+}
+.align-right .author-details img{
+    margin-left: 12px;
+}
+.align-right .author-details * {
+    text-align: right;
+}
+.align-right {
+    text-align: right;
+}
+/* Slider CSS */
+swiper-slide {
+    padding: 24px;
+    border-radius: 30px;
+    border: 1px solid #ECF8EF42;
+}
+swiper-container{
+    max-width: 1320px;
+}
+swiper-container::part(button-prev), swiper-container::part(button-next)  {
+    width: 16px;
+    height: 16px;
+    background: rgb(0, 0, 0, 0.3);
+    padding: 6px;
+    color: #fff;
+    top: 53%;
+}

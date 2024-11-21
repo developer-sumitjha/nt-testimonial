@@ -1,0 +1,94 @@
+/* Testimonial Setting */
+.testimonial-setting{
+    display: flex;
+}
+.testimonial-setting .col-2{
+    flex: 0 0 100%;
+}
+
+/* Setting Tab Button */
+.setting-tabs{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.setting-tabs div{
+    background: #DCDCDE;
+    padding: 12px 32px;
+    cursor: pointer;
+}
+.setting-tabs div.active{
+    background: transparent;
+    border-width: 2px 2px 0px 2px;
+    border-color: #DCDCDE;
+    border-style: solid;
+}
+.setting-tabs div span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* General Setting */
+.slider-setting:not(.active){
+    display: none;
+}
+/* Style Setting */
+.grid-setting:not(.active){
+    display: none;
+}
+.grid-setting form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.grid-setting {
+    width: 90%;
+    background: transparent;
+    padding: 48px 0px;
+}
+
+.grid-setting form div {
+    display: flex;
+    align-items: center;
+}
+
+.grid-setting form div label {
+    width: 25%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.grid-setting form div input {
+    border-radius: 0px;
+    font-size: 15px;
+    border: 1px solid #bbbbbb;
+    height: 40px;
+}
+.grid-setting form div input[type='text']{
+    width: 400px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.grid-setting form div select {
+    width: 450px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.grid-setting form div input[type='number'] {
+    width: 100px;
+    border-radius: 4px;
+}
+.grid-setting form input[type="submit"] {
+    background: #21759B;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
